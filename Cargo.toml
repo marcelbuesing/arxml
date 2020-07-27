@@ -1,0 +1,18 @@
+[package]
+name = "arxml"
+version = "0.1.0"
+authors = ["marcelbuesing <buesing.marcel@googlemail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+log = "0.4"
+yaserde_derive = { git = "https://github.com/marcelbuesing/yaserde.git" }
+yaserde = { git = "https://github.com/marcelbuesing/yaserde.git" }
+xml-schema = { git = "https://github.com/marcelbuesing/xml-schema.git", branch = "documentation" }
+xml-schema-derive = { git = "https://github.com/marcelbuesing/xml-schema.git", branch = "documentation" }
+xml-rs = "0.8.3"
+
+[patch.crates-io]
+yaserde_derive = { git = "https://github.com/marcelbuesing/yaserde.git" }
+yaserde = { git = "https://github.com/marcelbuesing/yaserde.git" }
